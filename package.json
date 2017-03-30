@@ -1,0 +1,20 @@
+{
+  "name": "pakkun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rtablada/pakkun.git",
+  "author": "Ryan Tablada <ryan.tablada@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require babel-register",
+    "tdd": "nodemon --watch src --watch test --exec 'npm run test'"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-latest": "^6.24.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "eslint-config-rtablada": "^4.1.0"
+  }
+}
